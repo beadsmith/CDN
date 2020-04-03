@@ -1,0 +1,444 @@
+.dhtmlwindow{position:absolute;border:2px solid black;visibility:hidden}.drag-handle{padding:1px;text-indent:3px;font:bold 14px Arial;background-color:#b3b3b3;color:white;cursor:move;overflow:hidden;width:auto;filter:alpha(opacity=100);-moz-opacity:1;opacity:1}.drag-handle .drag-controls{position:absolute;right:1px;top:2px;cursor:hand;cursor:pointer}* html .drag-handle{width:100%}.drag-contentarea{border-top:1px solid brown;background-color:white;color:black;height:150px;padding:2px;overflow:auto}.drag-statusarea{border-top:1px solid gray;background-color:#f8f8f8;height:13px}.drag-resizearea{float:right;width:13px;height:13px;cursor:nw-resize;font-size:0}#maincontainer{width:1024px;height:auto;margin:0 auto}#topsection{height:101px}#contentwrapper{float:left;height:auto;width:100%}#contentcolumn{margin:0 250px 0 175px}#leftcolumn{float:left;width:175px;overflow:hidden;margin-left:-1024px}#rightcolumn{float:right;width:250px;overflow:hidden;margin-left:-252px}#footer{clear:left;width:100%;text-align:center;padding:0}.innertube{margin:1px;background-color:#f8f8f8;margin-top:0}#minicartwrap{width:250px;height:auto;float:right;background:#fff;border:1px solid #000;margin-top:1px}#richwrapper{width:1024px;height:auto;background-color:#fff}#minicartwrapr{width:250px;height:auto;float:right;background:#f7da9e;border:1px solid #000;margin-top:2px}#leftsidewrap{width:175px;height:auto;float:left}#minicartwrapl{width:175px;height:auto;float:left}#STXBeadcartItems{border-bottom:1px solid #000}#emaillink{background:url(https://iws.helby.com/webimages/Emaillink.png) no-repeat;width:170px;height:70px;float:left}#andrewdiv{width:175px;height:750px;float:left;clear:left;background-color:#fff;font-family:"arial";font-size:10px;color:#000}#richmilonic{width:175px;height:820px;float:left;clear:left;background-color:#fff;font-family:"arial";font-size:10px;color:#000}#printdivcontainer{width:250px;height:auto;overflow:auto;font-family:"arial";padding-top:1px;text-align:center;margin-top:2px;background-color:#f8da9c}#Specialscontainer{width:250px;height:auto;background-color:#fff;overflow:hidden;float:right;font-family:"arial";padding-top:20px}#printtabs{width:250px;height:35px;background-color:#996;float:right;background-color:#fff;font-weight:bold;text-align:center;border-bottom:1px solid #000}#Specials{width:250px;height:auto;background-color:#fff;float:right}#printtabs a:link{font-family:"arial";font-size:14px;font-weight:bold;text-decoration:none;color:#000}#printtabs a:hover{color:#000;cursor:pointer}.myButton:hover{background:url(https://iws.helby.com/webimages/AddToOrderButtonOVER.gif) no-repeat;cursor:pointer;width:auto;height:20px;float:right;border:0}.BOBodyHeadings{font-family:"arial";font-size:12px;font-weight:bold}.BOBody{font-family:"arial";font-size:10px}#BOBodyHead{width:585px;height:auto;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#FFF;font-family:"arial";font-size:8px;padding-top:10px}.BOBodyHead{font-family:"arial";font-size:12px}#BOMainBody{width:585px;height:auto;float:left;margin-left:5px;font-family:"arial";font-size:10px;padding-top:10px}#BOprevPage{width:585px;height:auto;float:left}#checkoutbox{font-size:10px;text-align:center;background-color:#f8da9c}#checkoutbox a:link{width:252px;height:25px;float:right;cursor:pointer;padding-top:25px;text-align:center;text-decoration:none;color:#000}#headerrecon2{width:1024px;height:101px;float:left}#logo{width:139px;height:87px;background:url(https://iws.helby.com/webimages/log-bar_09_01b.gif);float:left}#headr2c1{width:1024px;height:14px;background:url(https://iws.helby.com/webimages/RichLogoBarSmaller.gif);background-repeat:repeat-x;float:right}#headr1c1{width:790px;height:87px;background-color:#fff;float:left;padding:5px 0 0 5px;text-align:center}#headr1c2{width:266px;height:87px;background-color:#fff;float:right;font-family:"arial";font-size:9px}#RichRnMenu{width:790px;background-color:#fff;float:left;margin:0 1px 0 0;padding:0}#RnMenuwrap{width:790px;height:40px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#BORichRnMenu{width:790px;height:40px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#BRURichRnMenu{width:550px;height:40px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#RnMenu{width:454px;height:20px;float:left;margin:0 1px 0 0;padding:0;font-family:"arial";font-size:12px}#Productsearchistory{width:300px;height:40px;float:left;text-align:left;background-color:#fff;font-family:"arial";font-size:12px}div.menuBar,div.menuBar a.menuButton,div.menu,div.menu a.menuItem{font-size:10pt;font-family:"arial";font-style:normal;font-weight:bold;color:#000;padding:4px 2px 10px 2px;text-align:center}div.menuBar a.menuButton{background-color:transparent;cursor:pointer;left:0;margin:1px;padding:2px 6px 2px 6px;text-decoration:none;top:0}div.menu{left:0;padding:0 1px 1px 0;position:absolute;top:0;visibility:hidden;BACKGROUND:url(https://iws.helby.com/webimages/stylesheet_beta/BlueSpot.png);z-index:1000}div.menu a.menuItem{color:#000;cursor:pointer;display:block;padding:3px 4px;text-decoration:none;white-space:nowrap}div.menu a.menuItem:hover{background-color:#fff;color:#cac493}.cssmouseon{background-color:#cac49b;color:#fff;border-color:black;border-style:solid;border-width:1px;padding:1px;font-size:12px;font-style:normal;font-family:Arial,Verdana,Tahoma;outline:black}.cssmouseon a:link{text-decoration:none}.cssmouseoff{background-color:#fff;color:#000;border-color:#000;padding:1px;font-size:12px;font-style:normal;font-family:Arial,Verdana,Tahoma;outline:#000}.cssmouseoff a:link{text-decoration:none}#Footerwrap{width:1024px;height:80px;float:left;clear:left;background-color:#fff}#Footerleft{width:200px;height:80px;float:left;background:url(https://iws.helby.com/webimages/FooterLeft.jpg) no-repeat bottom left}#Footercenter{width:564px;height:80px;float:left;background:url(https://iws.helby.com/webimages/FooterCenter.jpg) no-repeat;background-position:140px}#Footerright{width:260px;height:80px;float:right;background:url(https://iws.helby.com/webimages/FooterRight.jpg) no-repeat bottom left;background-position:0 0}#Footerfineprint{width:1024px;height:40px;float:left;font-family:"arial";font-size:10px;text-align:left;padding-left:165px}.HOTdatnorm{font-family:"arial";font-size:10px}.HOTdatnorm a:link{color:#000;text-decoration:none}#Loader{width:200px;height:200px;background:url(https://iws.helby.com/webimages/ajax-loader.gif) no-repeat top center}label{width:35%;float:left;text-align:right;padding-top:4px}.field_container{font-family:Verdana,Geneva,sans-serif;font-size:12px;font-weight:bold;text-decoration:none;color:#8c8c3f;padding-top:2px}.field_container2{font-family:Verdana,Geneva,sans-serif;font-style:italic;font-size:10px;color:#8c8c3f;border-style:none;padding-top:2px;vertical-align:middle}#ElementBody{width:600px;height:auto;font-family:"arial";font-size:10px;float:left;background-color:#fff}#datsml{font-family:"arial";font-size:12px;text-decoration:none;color:#000}#TemplateDropDown{font-family:"arial";font-size:10px;text-align:center;border:1px solid #000}.SearchTable{font-family:"arial";font-size:9px}#CPdiv{width:790px;height:auto;float:left}.CPdiv{font-family:"arial";font-size:14px}#CPWBody{width:790px;height:500px;font-family:"arial";font-size:14px;float:left;background-color:#fff}#OEBody{width:560px;height:auto;float:left;font-family:"arial";font-size:10px}#OEHeading{width:790px;height:110px;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-size:10px;text-align:center}.OEHeadings{font-family:"arial";font-size:13px;text-align:center}.OEBodyHeadings{font-family:"arial";font-size:11px;text-align:left}.OEdatnorm{font-family:"arial";font-size:14px;text-align:center;height:20px}#OETemplate{width:790px;height:auto;font-family:"arial";font-size:10px;text-align:center;float:left;clear:left}#OEButtons{width:790px;height:auto;font-family:"arial";font-size:10px;text-align:center}#PUHsortby{height:25px;background-color:#fff;float:left;font-family:"arial";font-size:9px}#PUHitemsperpage{height:25px;background-color:#fff;float:left;font-family:"arial";font-size:9px}#PUHBodyMain{width:790px;height:auto;border-bottom:1px solid #000;float:left}.PUHBody{font-family:"arial";font-size:11px}.PUHBody a:link{color:#000;text-decoration:none}#PUHheading{width:790px;height:110px;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;padding-top:10px}.PUHheading{font-family:"arial";font-size:14px;text-align:center;height:20px}#PUHprevbutton{width:790px;height:50px;float:left}#PUHpagemove{width:790px;height:auto;font-family:"arial";font-size:12px;float:left}.PUHpagemove{font-family:"arial";font-size:12px}#PUHpagemove a:link{text-decoration:none;color:#000}#PHButtons{width:1024px;height:auto;float:left}#PHBody2{width:790px;height:auto;float:left}#CLBody1{width:790px;height:auto;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-family:"arial";font-size:10px;text-align:center}.CLheadings{font-family:"arial";font-size:11px;font-weight:bold}.CLdatnorm{font-family:"arial";font-size:11px}.CLdatnorm a:link{color:#000;text-decoration:none}#CLBody2{width:790px;height:auto;float:left}#CLpagemove{width:790px;height:auto;font-family:"arial";font-size:12px;float:left;text-align:center;border:1px solid gray}#CLpagemove a:link{text-decoration:none;color:#000}#CLButtons{width:1024px;height:auto;float:left}#CLPageMove{width:auto;height:auto;font-family:"arial";font-size:12px}.CLPageMove{font-family:"arial";font-size:12px;text-align:center}#CLDPageMove{width:auto;height:auto;font-family:"arial";font-size:12px}.CLDPageMove{font-family:"arial";font-size:12px;text-align:center}#COsortbyitemsperpage{width:840px;height:50px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#COsystmsg{width:840px;height:75px;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-family:"arial";font-size:14px;text-align:center;padding-top:10px}#COBodywrap{width:840px;height:auto;float:left}#CObody{width:840px;height:55px;float:left;background-color:#fff;text-align:left;border-bottom:1px solid #000}.COBody{font-family:"arial";font-size:10px}#CObody2prodno{width:180px;float:left;font-family:"arial";font-size:11px;font-weight:bold;text-align:left;background-color:#fff}#CObody2prodno a:link{color:#000;text-decoration:none}#CObody2proddesc{width:180px;height:auto;float:left;background-color:#fff;font-family:"arial";font-size:10px;text-align:left}#CObody2proddesc a:link{color:#000;text-decoration:none}#CObody2QTYX{width:100px;height:70px}#CObody2qtybox{width:84px}#CObody2update{width:40px;height:auto}#CObody2updqty{width:50px}#COordercomments{width:840px;height:auto;float:left;text-align:center;font-family:"arial";font-size:12px}#COordertotals{width:840px;height:auto;text-align:right;font-family:"arial";font-size:14px}#CObottombuttons{width:840px;height:auto;float:left;font-family:"arial";font-size:12px;text-align:center}#COPageMove{width:840px;height:auto;font-family:"arial";font-size:12px}.COPageMove{font-family:"arial";font-size:12px;text-align:center}#COTemplate{width:840px;height:auto;float:left;font-family:"arial";font-size:12px;text-align:center}#QOHeading{width:580px;height:75px;float:left;padding-top:10px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-family:"arial";font-size:12px;text-align:center}#QObody{width:790px;height:auto;float:left;background-color:#fff;text-align:left;border-bottom:1px solid #000}.QObody{font-family:"arial";font-size:12px}#QOprevbutton{width:790px;height:50px;float:left}#QOpagemove{width:580px;height:50px;font-family:"arial";font-size:11px;float:left}#QOsortby{width:276px;height:50px;background-color:#fff;float:left;font-family:"arial";font-size:9px;padding-bottom:5px}#QOitemsperpage{width:226px;height:50px;background-color:#fff;float:left;font-family:"arial";font-size:9px;padding-bottom:5px}#QOpagemove a:link{text-decoration:none;color:#000}#QOtaghdg{width:580px;height:auto;float:left}#QOButtons{width:580px;height:auto;Float:left}#PSmainproductdiv{width:790px;overflow:auto;float:left;font-family:"arial";font-size:8px;background-color:#fff}#PSmainproductdiv a:link{color:#000;text-decoration:none}#SRsortby{width:276px;height:25px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#SRitemsperpage{width:auto;height:25px;background-color:#fff;float:left;font-family:"arial";font-size:12px}#SRfootprints{width:790px;height:auto;background-color:#fff;color:#000;text-align:center;font-family:"arial";font-size:11px;clear:left}#SRsearchresults{width:790px;height:auto;float:left;background-color:#fff}#SRpagemove{width:580px;height:auto;float:left;font-family:"arial";font-size:12px;background-color:#fff;text-align:center}.SRpagemove{font-family:"arial";font-size:12px;text-align:center}#SRpagemove a:link{text-decoration:none;color:#000}#SRBodyLine{width:580px;height:97px;clear:left;background-color:#fff;text-align:center;border-bottom:1px solid #000;padding-bottom:1px}#SRBodypicturewrap{width:75px;height:auto;float:left;padding-left:5px;padding-top:5px}#SRbodyproddesc{width:160px;height:auto;background-color:#fff;font-family:"arial";font-size:10px;text-align:left;padding-left:5px;float:left}#SRbodyproddesc a:link{color:#000;text-decoration:none}#SRcloseoutholder{width:160px;height:1px;float:left;font-family:"arial";font-size:14px;font-weight:bold;font-style:italic;color:#f00}#SRdiscountholder{width:160px;height:1px;float:left;font-family:"arial";font-size:14px;font-weight:bold;font-style:italic;color:#f00}#SRbodyinstock{width:30px;height:75px;float:left;padding-top:5px}#SRBodyiconwrap{width:40px;height:75px;float:left;padding-left:5px}#SRbodyQTYX{width:210px;height:75px;float:left;font-family:"arial";font-size:10px}#SRbodyQTYLine{width:200px;height:75px;float:left;font-family:"arial";font-size:10px;padding-right:10px}#SRbodyqtybox{width:50px;height:55px;float:right;padding-top:20px;text-align:right}#SRAOButton{width:580px;height:auto;text-align:center;float:left;background-color:#fff}#sortbyitemsperwrap{width:790px;height:50px;font-family:"arial";font-size:10px}.sortbyitemsperwrap{font-family:"arial";font-size:12px}#sortby{font-family:"arial";font-size:12px;float:left}#itemsperpage{font-family:"arial";font-size:12px;position:relative}#variablecontainerwrap{width:790px;height:auto;float:left;overflow:auto}#variablecontainer{width:790px;height:auto}.OOHheadings{font-family:"arial";font-size:15px;font-weight:bold}.OOHBody{font-family:"arial";font-size:15px}#placeneworder{width:790px;height:50px;float:left;background-color:#fff;text-align:center;font-family:"arial";font-size:15px}#ARQBody{width:790px;height:auto;float:left;font-family:"arial";font-size:10px}.ARQBody{font-family:"arial";font-size:12px}#ARQprevbutton{width:1024px;height:auto;float:left}#ARQBodyheadings{width:790px;height:auto;float:left;padding-top:15px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#ffffff}#ARQsortbyitemsper{font-family:"arial";font-size:10px}.ADMBody{font-family:"arial";font-size:15px;text-align:center}#ADMSpacerdiv{width:200px;height:200px;float:left}#COOsortby{float:left;font-family:"arial";font-size:10px}#COOBody{width:790px;height:auto;border-bottom:1px solid #000;float:left}.COOBodyText{font-family:"arial";font-size:11px}.COOBodyHeadText{font-family:"arial";font-size:12px;text-align:center}#COOheadingwrap{width:790px;height:auto;float:left;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}#COOHeading{width:580px;height:auto;padding-top:10px;margin-left:5px;margin-right:5px}.COOdatnorm{font-family:"arial";font-size:11px;text-align:center}.COOblkblush{font-family:"arial";font-size:11px;text-align:center}.COOheadbox{width:512px;height:50px}#COOPageMove{width:auto;height:auto;font-family:"arial";font-size:12px}.COOPageMove{font-family:"arial";font-size:12px;text-align:center}#COOpagemove a:link{text-decoration:none;color:#000}#COOPrevPg{width:1024px;height:auto;float:left}#CIQBodyHeadings{width:790px;height:auto;float:left;padding-top:15px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-family:"arial";font-size:10px;text-align:center}#CIQBody{width:790px;height:auto;float:left}.CIQBodyHeading{font-family:"arial";font-size:12px;font-weight:bold}.CIQBody{font-family:"arial";font-size:12px}#CIQButtons{width:790px;height:auto;float:left}#DOBody{width:790px;height:auto;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;text-align:center}.DOBodyText{font-family:"arial";font-size:14px;text-align:center}.DOBodyText2{font-family:"arial";font-size:14px}#DONBody{width:790px;height:auto;float:left;padding-top:10px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}.DONBodyText{font-family:"arial";font-size:14px;text-align:center;height:20px}#DTNHeading{width:790px;height:110px;float:left;padding-top:15px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#fafafa;font-family:"arial";font-size:10px;text-align:center}.DTNdatnorm{font-family:"arial";font-size:12px;text-align:center}#DTNBody{width:790px;height:auto;font-family:"arial";font-size:12px;float:left;padding-top:25px}#DTNSpacerdiv{width:210px;height:80px;float:left}#EOSpacer{width:auto;height:900px;float:left}#EOBody{width:768px;height:auto;float:left}.EOBody{font-family:"arial";font-size:10px;text-align:center}.EOBody2{font-family:"arial";font-size:10px}#EOBody2{width:768px;height:auto;float:left}#EOBody3{width:768px;height:auto;float:left}#HOBody{width:790px;height:auto;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3;font-family:"arial";font-size:10px;text-align:center}.HOdatnorm{font-family:"arial";font-size:14px;text-align:center;height:20px}#PCSsortby{width:276px;height:25px;background-color:#fff;float:left;font-family:"arial";font-size:9px}#PCSitemsperpage{width:226px;height:25px;background-color:#fff;float:left;font-family:"arial";font-size:9px}#PCSBody{width:849px;height:auto;float:left;border-bottom:1px solid #000}.PCSBody{font-family:"arial";font-size:11px}#PCSHeading{width:790px;height:auto;float:left;margin-left:5px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#fafafa;font-family:"arial";font-size:10px;text-align:center}.PCSdatnorm{font-family:"arial";font-size:11px;text-align:center}.PCSblkblush{font-family:"arial";font-size:11px;text-align:center}.PCSheadbox{width:512px;height:50px;text-align:center}#PCSprevbutton{width:790px;height:50px;float:left}#PCSpagemove{width:790px;height:50px;font-family:"arial";font-size:11px;float:left}#PIFBodyprodinfo{width:400px;height:auto;float:left;text-align:left;overflow:auto}#PIFBody{width:400px;height:auto;float:left;text-align:left}#mouseoverhintbox{position:absolute;width:400px;height:auto;font-family:"arial";z-index:1000;-webkit-border-radius:1px;-moz-border-radius:1px;border:1px solid #000;padding:10px;background-color:#fff;display:none}#hintbox{position:absolute;top:0;background-color:lightyellow;width:150px;padding:3px;border:1px solid black;font:normal 11px Verdana;line-height:18px;z-index:100;border-right:3px solid black;border-bottom:3px solid black;visibility:hidden}.hintanchor{font-weight:bold;color:navy;margin:3px 8px}.labelhide{background-color:#fff;color:black;font-size:12px;font-style:normal;font-family:Arial,Verdana,Tahoma;float:right}.labelshow{background-color:#cac49b;color:#fff;font-size:12px;font-style:normal;font-family:Arial,Verdana,Tahoma}#PIbodywrap{width:790px;height:auto;float:left}#PIbodyimage{width:260px;height:auto;float:left;padding-right:5px;font-family:"arial";font-size:11px}#PIBodyprodinfo{width:325px;height:auto;float:left}#PIbodywrap2{width:1024px;height:auto;float:right;font-family:"arial";text-align:center;font-size:15px}#PIbody2{height:auto;float:left;background-color:#fff;text-align:left;font-family:"arial";font-size:12px}#PIbodyprodno{width:auto;font-family:"arial";font-size:11px}.PIbodyprodno{font-family:"arial";font-size:11px}.proddesctitle{width:auto;font-family:"arial";font-size:12px;font-weight:bold}.spacerrow{height:50px}#PIbody2QTYX{width:auto;height:70px;float:left;font-family:"arial";font-size:10px;padding-right:10px}#PIbody2qtybox{width:auto;height:50px;float:left;padding-top:26px;padding-right:10px;font-family:"arial";font-size:12px}#PIAOButton{width:84px;height:50px;float:left;padding-top:26px}#PIbody2prodno{font-family:"arial";font-size:12px}#PIbodyPurchStats{width:1024px;height:auto;float:right}.PIbodypurchstats{font-family:"arial";font-size:15px}#PIdatsml{border:1px solid #000;font-family:"arial";font-size:12px;text-decoration:none;color:#000}#PIbodyPrevPurch{width:120px;height:auto;float:left}#PIbodyAnnualUsage{width:470px;height:auto;float:left;border:1px solid #000}#PIprodnodescwrap{width:160px;height:75px;float:left}#PIbodyprodnm{font-family:"arial";font-size:13px;font-weight:bold}#PIbody2prodno{width:160px;height:auto;float:left;font-family:"arial";font-size:11px;font-weight:bold;text-align:left;background-color:#fff;padding-top:20px;padding-left:5px}#PIbody2prodno a:link{color:#000;text-decoration:none}PIbody2proddesc{width:160px;height:auto;float:left;background-color:#fff;font-family:"arial";font-size:10px;text-align:left;padding-bottom:5px;padding-left:5px}#PIbody2proddesc a:link{color:#000;text-decoration:none}#PIBody2iconwrap{width:40px;height:75px;float:left}#PIbody2video{width:40px;height:37px;float:left}#PIbody2pdf{width:40px;height:37px;float:left}#PIbody2instock{width:auto;height:75px;float:left;padding-top:25px}#taghdg{font-family:"arial";font-size:10px}#prodimg{float:right}#RQCustInfo{width:790px;height:auto;float:left;font-family:"arial";font-size:12px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}.RQHeaderInfo{font-family:"arial";font-size:11px;font-weight:bold;text-align:center}#Gold{font-family:"arial";font-size:11px;font-weight:bold}#CustInfo{font-family:"arial";font-size:12px;text-align:left}#RQOrderDetails{width:790px;height:auto;float:left;border-bottom:1px solid #000}#RQOrderTotals{width:790px;height:auto;float:left;font-family:"arial";font-size:11px}#RQordercomments{width:790px;height:auto;float:left}#RQPageMove{width:790px;height:auto;float:left;font-family:"arial";font-size:12px}#RQpagemove a:link{text-decoration:none;color:#000}#RQPrevPg{width:1024px;height:auto;float:left}#RQTrackInfo{width:790px;height:auto;float:left;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}.RQTrackInfo{font-family:"arial";font-size:12px}#STBody{width:790px;height:auto;float:left;margin-left:5px;margin-top:20px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}.STBodyText{font-family:"arial";font-size:14px;text-align:center}.STBodyText2{font-family:"arial";font-size:14px;text-align:right}#BRCmainprodtableWRAP{width:790px;overflow:auto;float:left;background-color:#fff;font-family:"arial";font-size:12px}.BRCfootprint{font-family:"arial";font-size:12px}.BRCfootprint a:link{color:#000;text-decoration:none;font-family:"arial";font-size:12px}.BRCcategory{text-align:center;font-family:"arial";font-size:12px}.BRCcategory a:link{color:#000;text-decoration:none}#BRSmainprodtableWRAP{width:790px;overflow:auto;float:left;background-color:#fff;font-family:"arial";font-size:12px}.BRSfootprint{font-family:"arial";font-size:12px}.BRSfootprint a:link{color:#000;text-decoration:none;font-family:"arial";font-size:12px}.BRScategory{text-align:center;font-family:"arial";font-size:12px}.BRScategory a:link{color:#000;text-decoration:none}#BRSCmainprodtableWRAP{width:790px;overflow:auto;float:left;background-color:#fff;font-family:"arial";font-size:12px}.BRSCfootprint{color:#000;text-decoration:none}.BRSCfootprint a:link{color:#000;text-decoration:none;font-family:"arial";font-size:12px}.BRSCcategory{background-color:#fff;font-family:"arial";font-size:12px;text-align:center}.BRSCcategory a:link{color:#000;text-decoration:none;font-family:"arial";font-size:12px;text-align:center}.hintanchor2{color:#fff;background:#1d1d1d;display:none;padding:10px;position:absolute;z-index:1000;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#SOBody{width:768px;height:auto;float:left;font-family:"arial";font-size:12px;border-top:1px solid #000;border-bottom:1px solid #000;background-color:#b3b3b3}#SOBody2{width:768px;height:auto;float:left}.SOBody2{font-family:"arial";font-size:12px}#SOSpacer{width:125px;height:1000px;float:left}.ErrorMsg{font-family:"arial";font-size:10px;text-align:center;color:red}#rightcc{border:2px solid black;text-align:left;font-family:"arial";font-size:10px;height:250px}#leftcc{border:2px solid black;text-align:center;font-family:"arial";font-size:10px;height:250px}
+.shadow {
+/* border: 1px solid #000;
+border-radius: 15px;
+-moz-border-radius: 15px;
+*/
+ -moz-box-shadow: 1px 1px 4px #000;
+ -webkit-box-shadow: 1px 1px 4px #000;
+ box-shadow: 1px 1px 4px #000;
+ /* For IE 8 */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+ /* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.shadowmouse {
+border-radius: 15px;
+-moz-border-radius: 15px;
+ -moz-box-shadow: 3px 3px 8px #000;
+ -webkit-box-shadow: 3px 3px 8px #000;
+ box-shadow: 3px 3px 8px #000;
+ /* For IE 8 */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+ /* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.ac_results {
+ padding: 0px;
+ border: 1px solid black;
+ background-color: #D8BC95;
+ overflow: hidden;
+ z-index: 99999;
+}
+
+.ac_results ul {
+ width: 100%;
+ list-style-position: outside;
+ list-style: none;
+ padding: 0;
+ margin: 0
+}
+
+.ac_results li {
+ margin: 0px;
+ padding: 2px 5px;
+ cursor: default;
+ display: block;
+ /* 
+ if width will be 100% horizontal scrollbar will apear 
+ when scroll mode will be used
+ */
+ /*width: 100%;*/
+ font: menu;
+ font-size: 12px;
+ /* 
+ it is very important, if line-height not setted or setted 
+ in relative units scroll will be broken in firefox
+ */
+ line-height: 16px;
+ overflow: hidden;
+}
+
+.ac_loading {
+ background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+ background-color: #D8BC95;
+}
+
+.ac_over {
+ background-color: white;
+ color: #000;
+}
+
+#solrsearch {
+background-color: #EEE;
+padding: 5px;
+margin-top: 5px;
+margin-right: 20px;
+text-align: center;
+border-radius: 15px;
+-moz-border-radius: 15px;
+}
+.solrheader {
+background-color: #D8BC95;
+padding: 5px;
+margin-top: 2px;
+margin-right: 2px;
+text-align: center;
+border-radius: 15px;
+-moz-border-radius: 15px;
+background-color:#fff;
+color:#000;
+border-color:#000;
+padding:1px;
+font-size:10px;
+font-style:normal;
+font-family:Arial,Verdana,Tahoma;
+outline:#000
+}
+.more {
+background-color: #D8BC95;
+padding: 5px;
+margin-top: 2px;
+margin-right: 2px;
+text-align: center;
+border-radius: 15px;
+-moz-border-radius: 15px;
+color:#000;
+border-color:#000;
+padding:1px;
+font-size:14px;
+font-style:normal;
+font-family:Arial,Verdana,Tahoma;
+outline:#000
+}
+#selection {
+color:#000;
+border-color:#000;
+font-size:10px;
+font-style:normal;
+font-family:Arial,Verdana,Tahoma;
+}
+#sidebarselection {
+color:#000;
+border-color:#000;
+font-size:10px;
+font-style:normal;
+font-family:Arial,Verdana,Tahoma;
+padding-left: 1px;
+}
+#toppager, #pager-footer {display: inline; align: right;}
+#toppager li, .links li {list-style-type: none; display: inline;}
+a:hover {
+ color: #000;
+ text-decoration: underline;
+}
+#search {
+list-style-type: none;
+display: inline;
+list-style-type: none;
+padding; 0 0 0 0 ;
+}
+}
+#wrap {
+ width: 1000px;
+ margin: 0px auto;
+}
+.clear {
+ clear: both;
+}
+#navigation {
+ border-bottom: 1px solid #000;
+}
+#pager,
+#pager-header {
+ display: inline; align: right;
+}
+#pager li,
+.links li {
+ list-style-type: none;
+ display: inline;
+}
+#selection {
+ padding: 10px 15px 0;
+}
+#selection li {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+#sidebarselection li {
+list-style-type: none;
+}
+#docs {
+ padding-top: 1px;
+}
+.tagcloudinitialhidden {
+ /* padding: 10px 15px 0; */
+ height: 400px ;
+ /* width: 200px ; */
+ overflow: auto ;
+ text-transform: capitalize;
+ display: none ;
+}
+.tagcloud {
+ /* padding: 10px 15px 0; */
+ height: 400px ;
+ /* width: 200px ; */
+ overflow: auto ;
+ text-transform: capitalize;
+}
+.tagcloud:hover {
+ /* padding: 10px 15px 0; */
+ height: 400px ;
+ /* width: 200px ; */
+ overflow: auto ;
+ text-transform: capitalize;
+}
+.tagcloud_item:hover {
+background-color:#cac49b;color:#fff;border-color:black;border-style:solid;border-width:1px;padding:1px;font-size:10px;font-style:normal;font-family:Arial,Verdana,Tahoma;outline:black;
+text-transform: capitalize;
+}
+.tagcloud_item {
+/* background-color:#fff ; */
+color:#000;border-color:#000;padding:1px;font-size:10px;font-style:normal;font-family:Arial,Verdana,Tahoma;outline:#000;
+text-transform: capitalize;
+}
+#srsearchresults { float: left; width: 820px;}
+#srfootprints {
+color: black;
+text-align: center;
+font-family: "arial";
+font-size: 11px;
+clear: left;
+border-bottom: 1px solid black;
+}
+/* Addl Style Sheets 09-06-12 - djf for search results page */
+.OutStock {
+font-family: "arial";
+font-size: 14px;
+text-align: center;
+color: red ;
+}
+.InStock {
+font-family: "arial";
+font-size: 14px;
+text-align: center;
+color: green ;
+}
+#SRsortby
+{
+width: 276px;
+height: 25px;
+background-color:#ffffff;
+float:left;
+font-family: "arial";
+font-size: 12px;
+}
+#SRitemsperpage
+{
+width: auto;
+height: 25px;
+background-color:#ffffff;
+float:left;
+font-family: "arial";
+font-size: 12px;
+}
+#SRfootprints
+{
+width: 820px ;
+/* width: 790px;
+height: auto;
+background-color:#ffffff;
+*/
+color:#000000;
+text-align: center;
+font-family: "arial";
+font-size: 11px;
+/* float:left; */
+clear:left;
+border-bottom: 1px solid black;
+}
+#SRsearchresults
+{
+/* 	width: 790px;
+height: auto;
+background-color:#ffffff;
+*/
+float:left;
+width: 820px;
+}
+#SRpagemove
+{
+width: 580px;
+height: auto;
+float:left;
+font-family: "arial";
+font-size: 12px;
+background-color:#ffffff;
+text-align:center;
+}
+.SRpagemove
+{
+font-family: "arial";
+font-size: 12px;
+text-align:center;
+}
+#SRpagemove a:link
+{
+text-decoration: none;
+color:#000000;
+}
+#SRBodyLine
+{
+width: 820px;
+height: 105px;
+clear: left;
+/* height: 97px;
+background-color:#ffffff;
+text-align:center;
+*/
+border-bottom: 1px solid #000000;
+padding-bottom:1px;
+}
+#SRBodypicturewrap
+{
+width: 100px;
+height: auto;
+float:left;
+padding-left: 5px;
+padding-top: 5px;
+}
+#SRbodyproddesc
+{
+width: 300px;
+height: auto;
+background-color:#ffffff;
+font-family: "arial";
+font-size: 11px;
+text-align: left;
+padding-left: 5px;
+padding-top: 5px;
+float:left;
+}
+.iconclass {
+height: 35px;
+width: 30px;
+float: left;
+}
+#SRbodyproddesc a:link
+{
+color:#000000;
+text-decoration:none;
+}
+#SRcloseoutholder
+{
+width: 160px;
+height: 1px;
+float:left;
+font-family: "arial";
+font-size: 14px;
+font-weight:bold;
+font-style: italic;
+color: #FF0000;
+}
+#SRdiscountholder
+{
+width: 160px;
+height: 1px;
+float:left;
+font-family: "arial";
+font-size: 14px;
+font-weight:bold;
+font-style: italic;
+color: #FF0000;
+}
+#SRbodyinstock
+{
+width: 30px;
+height: 75px;
+float:left;
+padding-top: 5px;
+}
+#SRBodyiconwrap
+{
+width: 120px;
+height: 35px;
+float:left;
+padding-left: 5px;
+}
+#SRbodyQTYX
+{ /*Used by Qty box Popup */
+width: 210px;
+height : 75px;
+float:left;
+font-family: "arial";
+font-size: 12px;
+}
+#SRbodyQTYLine
+{
+width: 200px;
+height : 75px;
+float:left;
+font-family: "arial";
+font-size: 10px;
+padding-right: 10px;
+}
+#SRbodyqtybox
+{
+width: 50px;
+height: 55px;
+float:right;
+padding-top: 20px; /* Moves it down 20px from top of line */
+text-align:right;
+}
+#SRAOButton
+{
+width: 580px;
+height: auto;
+text-align:center;
+float: left;
+background-color:#ffffff;
+}
+#ARQBody {
+  padding: 20px;
+  }
+
+.milonictable .topa {
+display: table-cell;
+vertical-align: bottom;
+background-image: url(https://iws.helby.com/webimages/web-features158x45.jpg) ;
+height: 45px ;
+width:158px ;
+background-repeat: no-repeat;
+background-position: top;
+}
+.milonictable .topb {
+display: table-cell;
+vertical-align: bottom;
+background-image: url(https://iws.helby.com/webimages/product-spotlight158x45.jpg) ;
+height: 45px ;
+width:158px ;
+background-repeat: no-repeat;
+background-position: top;
+}
+.milonictable .topc {
+display: table-cell;
+vertical-align: bottom;
+background-image: url(https://iws.helby.com/webimages/product-categories158x45.jpg) ;
+height: 45px ;
+width:158px ;
+background-repeat: no-repeat;
+background-position: top;
+}
+.milonictable .topd {
+display: table-cell;
+vertical-align: bottom;
+background-image: url(https://iws.helby.com/webimages/shop-by-craft158x45.jpg) ;
+height: 45px ;
+width:158px ;
+background-repeat: no-repeat;
+background-position: top;
+}

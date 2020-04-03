@@ -1,0 +1,90 @@
+.weblockmsg{
+   display: none ;
+   z-index: 99999 ;
+   position: fixed;
+   width: 100%;
+   top: 0px ;
+   background-position:10px center;
+   background-repeat:no-repeat;
+   border:1px solid;
+   margin:10px 0;
+   padding:15px 10px 15px 50px ;
+   background-color:#FEEFB3;
+   color:#9F6000;
+   -webkit-transform: translateY(-50px);
+   -webkit-animation: slideDown 10s 0s 1 ease forwards;
+   -moz-transform:    translateY(-50px);
+   -moz-animation:    slideDown 10s 0s 1 ease forwards;
+   transform:    translateY(-50px);
+   animation:    slideDown 10s 0s 1 ease forwards;
+}
+.weblockmsg:after{
+   display: inline-block;
+   color: black ; 
+   font-size: 20px ; 
+   content: "\00d7"; /* This will render the 'X' */
+}
+.webcustmsg{
+   display: none ;
+   z-index: 99999 ;
+   position: fixed;
+   width: 100%;
+   top: 0px ;
+   background-position:10px center;
+   background-repeat:no-repeat;
+   border:1px solid;
+   margin:10px 0;
+   padding:15px 10px 15px 50px ;
+   background-color:#DFF2BF;
+   color:#9F6000;
+   -webkit-transform: translateY(-50px);
+   -webkit-animation: slideDown 20s 0s 1 ease forwards;
+   -moz-transform:    translateY(-50px);
+   -moz-animation:    slideDown 20s 0s 1 ease forwards;
+   transform:    translateY(-50px);
+   animation:    slideDown 20s 0s 1 ease forwards;
+}
+.webcustmsg:after{
+   display: inline-block;
+   color: black ; 
+   font-size: 20px ; 
+   content: "\00d7"; /* This will render the 'X' */
+}
+.webcustmsg2{
+   display: none ;
+   z-index: 99999 ;
+   position: fixed;
+   width: 100%;
+   top: 0px ;
+   background-position:10px center;
+   background-repeat:no-repeat;
+   border:1px solid;
+   margin:10px 0;
+   padding:15px 10px 15px 50px ;
+   background-color:#DFF2BF;
+   color:#9F6000;
+   -webkit-transform: translateY(-50px);
+   -webkit-animation: slideDown 10s 0s 1 ease forwards;
+   -moz-transform:    translateY(-50px);
+   -moz-animation:    slideDown 10s 0s 1 ease forwards;
+   transform:    translateY(-50px);
+   animation:    slideDown 10s 0s 1 ease forwards;
+}
+.webcustmsg2:after{
+   display: inline-block;
+   color: black ; 
+   font-size: 20px ; 
+   content: "\00d7"; /* This will render the 'X' */
+}
+@keyframes slideDown {
+   0%, 100% { transform: translateY(-100px); }
+   10%, 90% { transform: translateY(0px); }
+}
+@-webkit-keyframes slideDown {
+    0%, 100% { -webkit-transform: translateY(-100px); }
+    10%, 90% { -webkit-transform: translateY(0px); }
+}
+@-moz-keyframes slideDown {
+    0%, 100% { -moz-transform: translateY(-100px); }
+    10%, 90% { -moz-transform: translateY(0px); }
+}
