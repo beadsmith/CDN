@@ -1,0 +1,2 @@
+# CDN
+CDN for Beadsmith
