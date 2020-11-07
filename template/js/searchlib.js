@@ -1686,8 +1686,8 @@ function changeview(xval) {
   $(function () {
     var gridhtml = " "  ;
     gridhtml += "<div class=viewer style='float:right;'>" ; 
-    gridhtml += "<a href=\"javascript:changeview('grid')\" title=\"View items in a Grid\"> <img border=0 src='https://img1.helby.com/webimages/grid.jpg' alt='View items in a Grid'> </a>" ; 
-    gridhtml += "<a href=\"javascript:changeview('list')\" title=\"View items in a List\"> <img border=0 src='https://img1.helby.com/webimages/list.jpg'> </a>" ; 
+    gridhtml += "<a href=\"javascript:changeview('grid')\" title=\"View items in a Grid\"> <img border=0 src='https://iws.helby.com/webimages/grid.jpg' alt='View items in a Grid'> </a>" ; 
+    gridhtml += "<a href=\"javascript:changeview('list')\" title=\"View items in a List\"> <img border=0 src='https://iws.helby.com/webimages/list.jpg'> </a>" ; 
     gridhtml += "</div> " ;
    //  gridhtml += "<input type=hidden value='list' id='viewtype' name='viewtype' > " ;
 
@@ -1855,8 +1855,8 @@ if (doc.webnew) { strVar +=  doc.webnew } ;
 if (doc.datasheetxref) {  strVar += datasheet(doc) ; }
 if (doc.catpage) {
 strVar += "<div class=\"SRcatpage\"  style=\"height: 35px; width: 30px;float: left;\"> " ; 
-strVar += " <a target=new href=\"https://img1.helby.com/webimages/pdf/" + doc.catpage + "\" class=\"hintanchor\" onmouseover=\"showhint('Click here for Catalog Page', this, event, '150px')\">" ;
-strVar +=" <img src=\"https://img1.helby.com/webimages/cat.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
+strVar += " <a target=new href=\"https://iws.helby.com/webimages/pdf/" + doc.catpage + "\" class=\"hintanchor\" onmouseover=\"showhint('Click here for Catalog Page', this, event, '150px')\">" ;
+strVar +=" <img src=\"https://iws.helby.com/webimages/cat.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
 strVar +=" </a></div>" ;
 // strVar += "<div id=\"SRCatPg\">" + doc.catpage +"<\/div>";
 }
@@ -1936,8 +1936,8 @@ if (doc.webnew) { strVar +=  doc.webnew } ;
 if (doc.datasheetxref) {  strVar += datasheet(doc) ; }
 if (doc.catpage) {
 strVar += "<div class=\"SRcatpage\"  style=\"height: 35px; width: 30px;float: left;\"> " ; 
-strVar += " <a target=new href=\"https://img1.helby.com/webimages/pdf/" + doc.catpage + "\" class=\"hintanchor\" onmouseover=\"showhint('Click here for Catalog Page', this, event, '150px')\">" ;
-strVar +=" <img src=\"https://img1.helby.com/webimages/cat.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
+strVar += " <a target=new href=\"https://iws.helby.com/webimages/pdf/" + doc.catpage + "\" class=\"hintanchor\" onmouseover=\"showhint('Click here for Catalog Page', this, event, '150px')\">" ;
+strVar +=" <img src=\"https://iws.helby.com/webimages/cat.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
 strVar +=" </a></div>" ;
 // strVar += "<div id=\"SRCatPg\">" + doc.catpage +"<\/div>";
 }
@@ -2484,7 +2484,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
 
     var q = this.manager.store.get('q').val();
     if (q != '*:*') {
-      links.push($('<a href="#"/>').html('<img src="https://img1.helby.com/webimages/X.gif" border="0">'+ q).click(function () {
+      links.push($('<a href="#"/>').html('<img src="https://iws.helby.com/webimages/X.gif" border="0">'+ q).click(function () {
         self.manager.store.get('q').val('*:*');
         self.doRequest();
         return false;
@@ -2512,14 +2512,14 @@ if (str.indexOf(")") > 0 ) {
    //     var field = fq[i].match(/^\w+:/)[0];
    //     var value = fq[i].substr(field.length + 1, 10);
        //        links.push($('<a href="#"/>').text('(x) ' + field + value).click(self.removeFacet(fq[i])));
-  //      links.push($('<a href="#"/>').html('<img src="https://img1.helby.com/webimages/X.gif" border="0">' + value).click(self.removeFacet(fq[i])));
+  //      links.push($('<a href="#"/>').html('<img src="https://iws.helby.com/webimages/X.gif" border="0">' + value).click(self.removeFacet(fq[i])));
   //    } else {
 //         links.push($('<a href="#"/>').text('(x) ' + fq[i]).click(self.removeFacet(fq[i])));
 
       if (fname == 'searchcat') { var fval = $("#footprintdivcontainer a").text(); }
 if (fname == 'customers') { fval = " Remove History Filter" ; } ;
       if (fval == '') { var fval = "Drill Down Category"} ; 
-       links.push($('<a href="#"/>').html('<img src="https://img1.helby.com/webimages/X.gif" border="0">' + fval).click(self.removeFacet(fq[i])));
+       links.push($('<a href="#"/>').html('<img src="https://iws.helby.com/webimages/X.gif" border="0">' + fval).click(self.removeFacet(fq[i])));
      
       // DONT DISPLAY THE DRILL DOWN LINKS FROM HERE 
         // hide the drill down of the one's that are showing
@@ -2529,7 +2529,7 @@ if (fname == 'customers') { fval = " Remove History Filter" ; } ;
      // $('.tagcloud').show()  ;
       
     if (links.length >= 1) {
-      links.unshift($('<a href="#"/>').html('<img src="https://img1.helby.com/webimages/X.gif" border="0"> Remove All Filters').click(function () {
+      links.unshift($('<a href="#"/>').html('<img src="https://iws.helby.com/webimages/X.gif" border="0"> Remove All Filters').click(function () {
         self.manager.store.get('q').val('*:*');
         self.manager.store.remove('fq');
         var fqc = $.cookie('SearchFilter', '') ; // set cookie to null
@@ -4526,7 +4526,7 @@ function datasheet(doc) {
 if (doc.datasheetxref) {
 output += "<div class=\"SRProject\"  style=\"height: 35px; width: 30px;float: left;\"> " ;
 output +=" <a href=javascript:ShowDataSheet('" + doc.datasheetxref + "')  class=\"hintanchor\" onmouseover=\"showhint('Click here for Project Ideas/MSDS Sheets', this, event, '150px')\">" ;
-output +=" <img src=\"https://img1.helby.com/webimages/project.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
+output +=" <img src=\"https://iws.helby.com/webimages/project.gif\" style=\"border-style:none; margin-top:3px;\"> " ;
 output +=" </a></div>"
 }
 return output;
